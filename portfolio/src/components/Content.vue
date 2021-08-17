@@ -27,7 +27,7 @@
 			text: 'Ich bin ein ausgebildeter Betriebsinformatiker und ein absoluter Informatik-Allrounder. Ich packe gerne an bei der Einrichtung von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.'
 		}, {
 			id: 2,
-			text: 'Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung Discord Bots.'
+			text: 'Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung von Discord Bots und einer Sport-App.'
 		}, {
 			id: 3,
 			text: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre.'
