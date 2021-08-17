@@ -22,7 +22,7 @@
 
 
 	const german = reactive({
-		title: 'Hallo :)',
+		title: 'Hi :)',
 		subTitle: 'Ich heisse Kabilan Sivanamam.',
 		paragraphs: [{
 			id: 1,
@@ -50,8 +50,8 @@
 
 <style scoped>
 	.title {
-		width: 5ch;
-		animation: typing .75s steps(5), blink .2s step-end infinite alternate;
+		width: 3ch;
+		animation: typing .75s steps(4), blink .2s step-end infinite alternate;
 		white-space: nowrap;
 		overflow: hidden;
 		border-right: 3px solid;
