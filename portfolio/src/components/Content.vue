@@ -6,18 +6,10 @@
 		<div>
 			<h2 class="subTitle anim-typewriter">{{ german.subTitle }}</h2>
 		</div>
-		<p>
-			{{ german.p1 }}
+		<p v-for="p in german.paragraphs" :key="p.id">
+			{{  p.text }}
 		</p>
-		<p>
-			{{ german.p2 }}
-		</p>
-		<p>
-			{{ german.p3 }}
-		</p>
-		<p>
-			<a href="https://www.linkedin.com/in/kabilan-sivanamam-3607b5172/" target="_blank">{{ german.p4 }}</a>
-		</p>
+		<a href="https://www.linkedin.com/in/kabilan-sivanamam-3607b5172/" target="_blank">LinkedIn</a>
 	</div>
 </template>
 
@@ -30,10 +22,16 @@
 	const german = reactive({
 		title: 'Hallo :)',
 		subTitle: 'Ich heisse Kabilan Sivanamam.',
-		p1: 'Ich bin ein ausgebildeter Betriebsinformatiker und ein absoluter Informatik-Allrounder. Ich packe gerne an bei der Einrichtung von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.',
-		p2: 'Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung Discord Bots.',
-		p3: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre.',
-		p4: 'LinkedIn',
+		paragraphs: [{
+			id: 1,
+			text: 'Ich bin ein ausgebildeter Betriebsinformatiker und ein absoluter Informatik-Allrounder. Ich packe gerne an bei der Einrichtung von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.'
+		}, {
+			id: 2,
+			text: 'Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung Discord Bots.'
+		}, {
+			id: 3,
+			text: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre.'
+		}]
 	})
 </script>
 
