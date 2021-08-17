@@ -9,7 +9,9 @@
 		<p v-for="p in german.paragraphs" :key="p.id">
 			{{  p.text }}
 		</p>
-		<a href="https://www.linkedin.com/in/kabilan-sivanamam-3607b5172/" target="_blank">LinkedIn</a>
+		<a v-for="l in german.links" :key="l.id" :href="l.page" target="_blank" :id="l.style">
+			{{ l.text }}
+		</a>
 	</div>
 </template>
 
@@ -27,10 +29,21 @@
 			text: 'Ich bin ein ausgebildeter Betriebsinformatiker und ein absoluter Informatik-Allrounder. Ich packe gerne an bei der Einrichtung von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.'
 		}, {
 			id: 2,
-			text: 'Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung von Discord Bots und einer Sport-App.'
+			text: `Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung von Discord Bots und einer Sport-App.`
 		}, {
 			id: 3,
-			text: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre.'
+			text: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre. 🎸'
+		}],
+		links: [{
+			id: 1,
+			text: 'LinkedIn',
+			page: 'https://www.linkedin.com/in/kabilan-sivanamam-3607b5172/',
+			style: 'linkedIn'
+		}, {
+			id: 2,
+			text: 'GitHub',
+			page: 'https://github.com/ksivanamam',
+			style: 'gitHub'
 		}]
 	})
 </script>

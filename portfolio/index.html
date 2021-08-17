@@ -26,30 +26,31 @@
 		}
 
 		h2 {
-			font-size: 1.65em;
+			font-size: 1.6em;
 			font-weight: 600;
 			margin-bottom: 0;
 		}
 
 		p {
-			font-size: 1.6em;
+			font-size: 1.55em;
 			font-weight: 300;
 			line-height: 1.4;
 			max-width: 28em;
 		}
 
-		a {
+		#linkedIn {
 			font-size: 1.6em;
 			font-weight: 300;
 			line-height: 1.4;
 			max-width: 28em;
 			text-decoration: none;
-			color: #121314;
+			color: #121212;
 			position: relative;
 			cursor: pointer;
+			margin: 0 1em 0 0;
 		}
 
-		a:after {
+		#linkedIn:after {
 			content: '';
 			position: absolute;
 			z-index: -1;
@@ -58,10 +59,47 @@
 			right: -0.1em;
 			bottom: 0;
 			transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-			background-color: #00AAFF ;
+			background-color: #00AAFF;
 		}
 
-		a:hover:after {
+		#linkedIn:hover {
+			color: #fff;
+		}
+
+		#linkedIn:hover:after {
+			top: 0%;
+		}
+
+		#gitHub {
+			font-size: 1.6em;
+			font-weight: 300;
+			line-height: 1.4;
+			max-width: 28em;
+			text-decoration: none;
+			color: #121212;
+			position: relative;
+			cursor: pointer;
+			margin: 0 1em 0 0;
+		}
+
+		#gitHub:after {
+			content: '';
+			position: absolute;
+			z-index: -1;
+			top: 60%;
+			left: -0.1em;
+			right: -0.1em;
+			bottom: 0;
+			transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+			background-color: #333;
+			color: #fff;
+		}
+
+		#gitHub:hover {
+			color: #fff;
+		}
+
+		#gitHub:hover:after {
 			top: 0%;
 		}
 	</style>
