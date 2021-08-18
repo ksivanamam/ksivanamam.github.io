@@ -116,33 +116,28 @@
 					name: '#vue',
 					color: '#fff',
 					backgroundColor: '#42b883'
-				}, {
-					id: 3,
-					name: '#vuetify',
-					color: '#fff',
-					backgroundColor: '#89CFF0'
-				}, {
-					id: 4,
+				},{
+					id: 2,
 					name: '#node',
 					color: '#fff',
 					backgroundColor: '#6cc24a'
 				}, {
-					id: 5,
+					id: 3,
 					name: '#ionic',
 					color: '#fff',
 					backgroundColor: '#00758f'
 				}, {
-					id: 6,
+					id: 4,
 					name: '#mysql',
 					color: '#fff',
 					backgroundColor: '#FFCA28'
 				}, {
-					id: 7,
+					id: 5,
 					name: '#firebase',
 					color: '#fff',
 					backgroundColor: '#FFA500'
 				}, {
-					id: 8,
+					id: 6,
 					name: '#knex',
 					color: '#fff',
 					backgroundColor: '#FFA500'
