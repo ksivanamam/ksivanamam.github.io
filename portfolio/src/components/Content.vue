@@ -66,10 +66,10 @@
 					subTitle: 'Ich heisse Kabilan Sivanamam.',
 					paragraphs: [{
 						id: 1,
-						text: 'Ich bin ein ausgebildeter Betriebsinformatiker und ein Informatik-Allrounder. Ich packe gerne an bei der Einrichtung von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.'
+						text: 'Ich bin ein ausgebildeter Informatiker und ein IT-Allrounder. Ich packe gerne an beim Einrichten von Netzwerken, arbeite aber auch gerne vor dem Laptop und schreibe Code.'
 					}, {
 						id: 2,
-						text: `Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung von Discord Bots und einer Sport-App.`
+						text: `Im Moment arbeite ich hauptsächlich an kleinen privaten Projekten wie die Entwicklung von Discord-Bots und einer Sport-App.`
 					}, {
 						id: 3,
 						text: 'In meiner Freizeit sitze ich aber nicht nur vor dem Laptop. Wenn ich gerade nicht in der Emme schwimme, gehe ich gerne klettern oder spiele Gitarre. 🎸'
@@ -91,7 +91,7 @@
 					subTitle: 'My name is Kabilan Sivanamam.',
 					paragraphs: [{
 						id: 1,
-						text: `I studied computer science and I'm an IT allrounder. I like to get my hands dirty while working on network setups but I also like to cozy up and write code on my computer.`
+						text: `I studied computer science and I'm an IT allrounder. I like to get my hands dirty setting up labs but I also like to cozy up and write code on my computer.`
 					}, {
 						id: 2,
 						text: `Currently I'm working on small projects like a private and a public Discord bot and I'm also developing a workout app.`
@@ -128,16 +128,21 @@
 					backgroundColor: '#6cc24a'
 				}, {
 					id: 5,
-					name: '#mysql',
+					name: '#ionic',
 					color: '#fff',
 					backgroundColor: '#00758f'
 				}, {
 					id: 6,
-					name: '#firebase',
+					name: '#mysql',
 					color: '#fff',
 					backgroundColor: '#FFCA28'
 				}, {
 					id: 7,
+					name: '#firebase',
+					color: '#fff',
+					backgroundColor: '#FFA500'
+				}, {
+					id: 8,
 					name: '#knex',
 					color: '#fff',
 					backgroundColor: '#FFA500'
