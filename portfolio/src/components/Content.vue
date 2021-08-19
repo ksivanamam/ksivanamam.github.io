@@ -37,13 +37,13 @@
 				<p>My Technology stack:</p>
 			</div>
 			<div v-if="german">
-				<div v-for="t in tags" :key="t-id" class="tag"
+				<div v-for="t in tags" :key="t.id" class="tag"
 					:style="{ color: t.color, backgroundColor: t.backgroundColor }">
 					{{ t.name }}
 				</div>
 			</div>
 			<div v-else>
-				<div v-for="t in tags" :key="t-id" class="tag"
+				<div v-for="t in tags" :key="t.id" class="tag"
 					:style="{ color: t.color, backgroundColor: t.backgroundColor }">
 					{{ t.name }}
 				</div>
